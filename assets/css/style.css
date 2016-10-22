@@ -48,6 +48,15 @@ table {
 	border-spacing: 0;
 }
 
+a {
+	color: #2E4B9B;
+	transition: all 0.3s ease;
+}
+
+a:hover {
+	color: #2B4897;
+}
+
 h1	{
 	font-weight: bold;
 	font-size: 31.2px;
@@ -212,6 +221,21 @@ article img {
 	margin: 7px 7px 0; 
 }
 
+table {
+	font-size: 12px;
+}
+
+td {
+	width: 180px;
+	height: 16px;
+}
+
+.map {
+	margin: 7px auto 5px;
+	width: 584px;
+	overflow: hidden;
+}
+
 .content {
 	width: 584px;
 	margin: 7px;
@@ -252,11 +276,9 @@ footer {
 	background: #CE0000;
 	height: 50px;
 	display: block;
-	line-height: 30px;
 	text-decoration: none;
 	font-weight: 200;
 	font-size: 14px;
-	color: rgba(255,255,255,.8);
 	transition: all 0.3s ease;
 	margin-top: -16px;
     z-index: 99999999;
@@ -276,3 +298,28 @@ footer:before {
     border-left: 19px solid #CE0000;
     transition: all 0.3s ease;
 }
+
+footer img {
+	width: 58px;
+	margin: 5px;
+	float: left;
+}
+
+footer p {
+	font-size: 13px;
+	line-height: 50px;
+	padding-left: 75px;
+	display: block;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
