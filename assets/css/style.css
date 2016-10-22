@@ -314,7 +314,61 @@ footer p {
 }
 
 
+@media screen and (max-width: 480px) {
+    main,
+    header .head,
+    .logoholder,
+    aside,
+    nav,
+    article {
+    	width: 100%;
+    }
+    article img,
+    .content {
+    	width: 95%;
+    	height: auto;
+    }
+    header .turkish,
+    header .nederlands {
+    	display: none;
+    }
 
+    header .head {
+    	height: 150px;
+    	background: url(../img/header-back.png) no-repeat right;
+    	background-size: cover;
+    }
+    .logoholder,
+    nav .addressbar {
+    	box-sizing: border-box;
+    }
+    .logoholder h1 {
+	    line-height: 1.1em;
+	    margin-bottom: 10px;
+	}
+
+	footer {
+		width: 93%;
+		margin-top: 0;
+	}
+
+	article {
+		height: auto;
+	}
+
+	.content p {
+	    line-height: 21px;
+	    font-size: 15px;
+	    margin-bottom: 16px;
+	}
+	nav .addressbar {
+	    font-size: 21px;
+	    padding: 30px;
+	    line-height: 27px;
+	    margin-top: 14px;
+	}
+
+}
 
 
 
